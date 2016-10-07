@@ -17,7 +17,7 @@ class ReplyTest extends \Codeception\Test\Unit
     }
 
     // tests
-    public function atestDeveTrazerSeisNumerosDiferentes10Vezes()
+    public function testDeveTrazerSeisNumerosDiferentes10Vezes()
     {
         $megasena = new \MegaSorteio();
         for ($i=0; $i < 10; $i++) { 
